@@ -1,7 +1,22 @@
 ZOLA
 ====
+def factors(n):
+	result = []
+	for i in range(1, n+1):
+		if n % i == 0:
+			result.append(i)
+	return result
+	
+def fibonacci(n):
+	if n < 2:
+		return n
+	else:
+		return fibonacci(n-2) + fibonacci(n-1)
+	print fibonacci(n)
+	
+	
 def cal_cd(a,b):
-  n = min(a,b)
+  	n = min(a,b)
 	m = max(a,b)
 	r = 0
 	if (a < b):
@@ -15,12 +30,10 @@ def cal_cd(a,b):
 		r = a % b
 	print "The greastest common divisor is %5.1f." % b
 	print "The least common multiple is %5.1f." % ((m*n)/b)
-
-def fibonacci(n):
-	if n < 2:
-		return n
-	else:
-		return fibonacci(n-2) + fibonacci(n-1)
+	print factors(m)
+	print factors(n)
+	print fibonacci(m)
 	print fibonacci(n)
+
 
 
