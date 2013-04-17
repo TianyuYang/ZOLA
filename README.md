@@ -30,8 +30,10 @@ def cal_cd_cm(a,b):
 		r = a % b
 	print "The greatest common divisor is %5.1f." % b
 	print "The least common multiple is %5.1f." % ((m*n)/b)
+	print "The factors of two input numbers :"
 	print factors(m)
 	print factors(n)
+	print "The fibonacci numbers of two input numbers :"
 	print fibonacci(m)
 	print fibonacci(n)
 
