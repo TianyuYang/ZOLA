@@ -15,7 +15,7 @@ def fibonacci(n):
 	print fibonacci(n)
 	
 	
-def cal_cd(a,b):
+def cal_cd_cm(a,b):
   	n = min(a,b)
 	m = max(a,b)
 	r = 0
