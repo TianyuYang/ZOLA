@@ -13,7 +13,6 @@ def cal_cd(a,b):
 		a = b
 		b = r
 		r = a % b
-	#c = n * m / r
 	print "The greastest common divisor is %5.1f." % b
 	print "The least common multiple is %5.1f." % ((m*n)/b)
 
