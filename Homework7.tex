@@ -1,0 +1,93 @@
+\documentclass{article}
+%\usepackage{amsmath}
+
+% pre-amble
+\title{Math 480 Final Project}
+\author{Tianyu Yang}
+\date{May 15, 2013}
+
+\begin{document}
+
+
+
+\maketitle  This is a proposal for the final project
+
+\section{Overview}
+
+We all use numbers and data everyday, even sometimes we did not realize.
+Numbers and data have big in
+uence to our daily life. For example, we can
+use numbers and data to analyze what is the best time and the best way for
+people traval on the highway, what is the best location for people to choose for
+business, and predict how the price of one type of product goint to be and so
+on.\ref{notation}.
+
+\section{introduction}
+My project will use an input data and calculate and analyze based on the data
+we have. After calculation, the project will show the feedbacks such as the
+distributions, statistical information, and some analysis of data. There are two
+examples in my project to show how this project work
+
+\subsection{Two Examples}\label{example}
+\begin{itemize}   % {enumerate} for numbers
+   \item Example 1:\\
+   In this example, I will use the data of the accidents that happened on
+highway I5 as my basic data. Based on the data, the Project will graph
+the histgram distribution of number of injurys, number of accidents, and
+number of cars. The mean, variance, confidence interval, and prodicted
+time will be also shown under graph. Thus, by anaylzing the data and
+distribution, we can prodict that when and where the accidents will most
+likely to happen, and what is the reason for it.
+
+   \item Example 2:\\
+   In this example, assuming people want to start a new business of gas
+station in Sea-Tec area. Based on the research of how the gas stations
+distribute in this area and how the people lives and works in this area,
+the project will give you a suggestion of reasonable place to locate the gas
+station. Also by analyzing the prices and local income. The project also
+give you a suggested price.
+\end{itemize}
+\subsection{Notation}\label{notation}
+   \begin{enumerate}
+     \item Formula for
+
+$$
+   y = A\alpha + B\beta + C\gamma + D\sigma
+
+   \alpha \rightarrow \{\text{ Numbers of Gas Stations around }\}
+
+   \beta  \rightarrow \{\text{ Numbers of people lives around }\}
+
+   \gamma \rightarrow \{\text{ Numbers of cars passing by per day } \}
+
+   \sigma \rightarrow \{\text{ Rents of the place per month } \}
+$$
+
+The letter A, B, C, D, are the precentage of the weight of each factors, in order to make the formula more reasonable
+
+     \item Price of the Gas\\
+     I am going to collect the data about each company's gas prices. Let the sample
+data size of companys' price is equal N, and let the mean of the price is $\bar{x}$. Based
+on the data we collect, we can easily calculate the Standard Diviation of the
+sample data, so we let the Standard Diviation is equal $\sigma$.\\
+Price Confidence Interval
+when $\alpha$ = 0.05:
+
+$$
+   \{ \bar{x} - 1.96 * \frac{\sigma}{\sqrt{N}} , \bar{x} + 1.96 * \frac{\sigma}{\sqrt{N}} \}
+
+   \bar{x} = \frac{\text{ Total prices }}{N}\\
+   
+   \sigma = \sqrt{\frac{1}{N} * \sum_{i=1}^{N}(x_i- \mu)^2}
+$$
+
+Thus, any price that will in the Price Confidence Interval is a reasonable price,
+for the start up gas station, it is better to make the price is slightly lower than
+the $\bar{x}$
+   \end{enumerate}
+\section{Aim or Expecting results}
+In the project, I am hoping I can use the datas and my coding to calculate some statistical numbers and graph the distributions.
+So I can use the numbers and distributions to actually find the best location for people to start a new gas stations business.
+
+
+\end{document}
